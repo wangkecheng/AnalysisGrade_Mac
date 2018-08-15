@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0334FBFA21243102004FF00E /* HomeWC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0334FBF821243102004FF00E /* HomeWC.m */; };
+		0334FBFB21243102004FF00E /* HomeWC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0334FBF921243102004FF00E /* HomeWC.xib */; };
 		03B4364E21230D84009A3395 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B4364D21230D84009A3395 /* AppDelegate.m */; };
 		03B4365321230D84009A3395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B4365221230D84009A3395 /* Assets.xcassets */; };
 		03B4365621230D84009A3395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B4365421230D84009A3395 /* Main.storyboard */; };
@@ -15,8 +17,6 @@
 		03B4366F21230D85009A3395 /* CommentFrameMacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B4366E21230D85009A3395 /* CommentFrameMacUITests.m */; };
 		03B4368221230EBB009A3395 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B4368121230EBB009A3395 /* Factory.m */; };
 		03B4368621230F94009A3395 /* ABaseWC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B4368521230F94009A3395 /* ABaseWC.m */; };
-		03B436992123350B009A3395 /* HomeWC.m in Sources */ = {isa = PBXBuildFile; fileRef = 03B436972123350B009A3395 /* HomeWC.m */; };
-		03B4369A2123350B009A3395 /* HomeWC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B436982123350B009A3395 /* HomeWC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0334FBF721243102004FF00E /* HomeWC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeWC.h; sourceTree = "<group>"; };
+		0334FBF821243102004FF00E /* HomeWC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeWC.m; sourceTree = "<group>"; };
+		0334FBF921243102004FF00E /* HomeWC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeWC.xib; sourceTree = "<group>"; };
 		03B4364921230D84009A3395 /* CommentFrameMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommentFrameMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03B4364C21230D84009A3395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03B4364D21230D84009A3395 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,9 +59,6 @@
 		03B4368321230EDE009A3395 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		03B4368421230F94009A3395 /* ABaseWC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABaseWC.h; sourceTree = "<group>"; };
 		03B4368521230F94009A3395 /* ABaseWC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABaseWC.m; sourceTree = "<group>"; };
-		03B436962123350B009A3395 /* HomeWC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeWC.h; sourceTree = "<group>"; };
-		03B436972123350B009A3395 /* HomeWC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeWC.m; sourceTree = "<group>"; };
-		03B436982123350B009A3395 /* HomeWC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeWC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,9 +162,9 @@
 		03B4367E21230EA2009A3395 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
-				03B436962123350B009A3395 /* HomeWC.h */,
-				03B436972123350B009A3395 /* HomeWC.m */,
-				03B436982123350B009A3395 /* HomeWC.xib */,
+				0334FBF721243102004FF00E /* HomeWC.h */,
+				0334FBF821243102004FF00E /* HomeWC.m */,
+				0334FBF921243102004FF00E /* HomeWC.xib */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -286,7 +286,7 @@
 			files = (
 				03B4365321230D84009A3395 /* Assets.xcassets in Resources */,
 				03B4365621230D84009A3395 /* Main.storyboard in Resources */,
-				03B4369A2123350B009A3395 /* HomeWC.xib in Resources */,
+				0334FBFB21243102004FF00E /* HomeWC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +315,7 @@
 				03B4368621230F94009A3395 /* ABaseWC.m in Sources */,
 				03B4368221230EBB009A3395 /* Factory.m in Sources */,
 				03B4364E21230D84009A3395 /* AppDelegate.m in Sources */,
-				03B436992123350B009A3395 /* HomeWC.m in Sources */,
+				0334FBFA21243102004FF00E /* HomeWC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

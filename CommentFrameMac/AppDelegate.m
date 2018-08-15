@@ -18,7 +18,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     
-     _homeWC = [[HomeWC alloc]initWithWindowNibName:@"HomeVC"]; 
+    _homeWC = [[HomeWC alloc]initWithWindowNibName:@"HomeWC"];   //让显示的位置居于屏幕的中心
+    [[_homeWC window] center];
     [_homeWC.window orderFront:nil]; //前置显示窗口
 }
 
